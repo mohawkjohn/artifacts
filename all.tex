@@ -14,6 +14,10 @@
 \documentclass[10pt]{article}
 
 \usepackage{graphicx}
+\usepackage{amsthm}
+
+\theoremstyle{definition}
+\newtheorem{term}{Term}
 
 \begin{document}
 \maketitle
@@ -23,30 +27,52 @@
 %\end{abstract}
 
 \section{Objective}
-Our contracted objective was to ascertain uses, if any, of subjects, which appear to be artifacts of some sort, and were found on certain near-earth asteroids.
-Implicit in this objective is that damaging or removing components of these subjects must be avoided.
+Our contracted objective was to ascertain uses, if any, of our subjects, which are artifacts found on a number of near-earth asteroids.
+Instruction prioritized minimizing damage to the subjects, and using the least destructive analyses possible.
 
 \section{Introduction}
-
 All of the subjects appear to be of similar technological origin, having common components.
 The purpose is unknown.
 One possible taxonomy groups the subjects into two types based on the central component: mineral-based and glass-based.
-However, we acknowledge that this taxonomy may highlight an arbitrary aspect of the subjects, and a separate taxonomy could be developed which emphasizes some other trait.
-We therefore utilize this taxonomy, shown in Fig.~\figure{fig:taxonomy} and discussed below, solely for convenience.
+
+However, we acknowledge that this taxonomy may highlight an arbitrary aspect of the subjects, and multiple independent taxonomies could be developed which emphasize other traits.
+We therefore utilize this taxonomy, shown in Fig.~\ref{fig:taxonomy} and discussed below, solely for convenience.
+
+\begin{figure}
+\includegraphics[width=1.0\textwidth]{taxonomy.pdf}
+\caption{\label{fig:taxonomy}\textbf{We classified the artifacts into a taxonomy whose first level centers on what we perceive to be the central component, which is either a refined mineral or some type of artificial glass.} For the mineral-centric subjects, the second level describes the setting for the gem, which is itself mounted in place on some sort of device. One of the glass-centric subjects has metal `tips' on the glass piece, and it receives its own category. We have not included the mounts in this taxonomy, as they each --- with the exception of those for 005 and 006 --- appear wholly unique. Indeed, the mounts for 005--006 are much less distinguishable from what we refer to as the settings. The terminology is defined in Section~\ref{sec:taxonomy}. The last row in the taxonomy provides the subject number, such that each subject has its own unique classification. For example, subject 001 is the sole artifact can be uniquely described, at least among those artifacts of which we are aware, as \texttt{artifact/mineral/labyrinthine/ellipsoidal}. }
+\end{figure}
 
 %Subjects 001--004 and 007--008 consist of two parts, which we refer to as the mineral and the setting. Subjects 005--006 likewise have two components; however, in lieu of a mineral, the setting serves as a mount for what appears to be glass.
 
-\subsection{Taxonomy}
-The settings differ substantially between subjects 001--003, 004, and 007--008.
-The settings in 001--003 consist of metal cut into geometric patterns, mounted on some type of what we surmise to be a connector.\footnote{We make the assumption that these are connectors on the basis of the oxidation on the pins.}
-For 004, the setting consists of three metal dowels arranged in a triad.  
-Whereas all of the other subjects were interpreted to be cut gemstones in metallic settings, subjects 005 and 006 appear to be hardware mounts for polished glass.
-With 007 and 008, the 
+\subsection{Taxonomy}\label{sec:taxonomy}
+Our taxonomy is best understood using the following terminology.
 
-\subsubsection{Terminology}
-
-\textbf{Labyrinthine} describes the round plate-like settings. ADD DESCRIPTION HERE.
-There is a layer of what may be either oxidation or some sort of protective coating; this layer appears to have been scraped off on the setting's edges and corners.
+%\theoremstyle{terminology}
+\begin{term}
+\emph{Gem} is the term we use to describe the objects of apparently mineral origin.
+\end{term}
+\begin{term}
+The \emph{setting} is the piece whose metal contacts are in immediate contact with the gem or glass. It may be either wholly metallic or partially. There is a layer of what may be either oxidation or some sort of protective coating (which we will refer to simply as oxidation hereafter) on several of the settings; this layer appears to have been scraped off on the settings' edges and corners.
+\end{term}
+\begin{term}
+\emph{Labyrinthine} describes the patterns in the metal of some of the settings, which resemble either mazes or perhaps circuit boards. These have the most visible oxidation.
+\end{term}
+\begin{term}
+\emph{Dowel triad} partially describes the setting for subject 004, which are three identical metal rods which pin the gem in the center of a short hollow cylinder.
+\end{term}
+\begin{term}
+\emph{Rectilinear} describes the mounts for 007 and 008, which have linear edges and primarily right (and some $45^\circ$) angles.
+\end{term}
+\begin{term}
+The \emph{mount} is the piece to which the setting is attached, except in two cases: the glass-centric subjects, in which the mount and setting are not distinct; and the rectilinear subjects, which have no mount.
+\end{term}
+\begin{term}
+The \emph{connectors} are uniform metallic pins which resemble an electronic interface, such as one might find on a computer processor or microcontroller. These are of differing sizes and are present on all subjects except for 007 and 008.
+\end{term}
+\begin{term}
+The \emph{plates} are identical, parallel metal quadrilaterals which enclose the gems in subjects 007 and 008. On one end of each is a single plate; on the other end there are either two (007) or three (008). We thus refer to these respectively as three-plate and four-plate.
+\end{term}
 
 \section{Methods}
 We endeavored to obtain as much information about the subjects as possible with as little potential impact on it as was feasible.
@@ -54,6 +80,7 @@ We endeavored to obtain as much information about the subjects as possible with 
 The mineral's properties may be categorized as either physical or optical.
 We used a $10\times$ hand lens and ultraviolet light to discern basic physical properties.
 For optical properties, a $45\times$ polarizing gemological microscope, a dichroscope, and a refractometer were employed.
+
 
 \section{Results}
 
@@ -108,10 +135,10 @@ A downward force on a table produced no temperature change, nor did a sideways f
 The temperature change did not appear to be sensitive to where we pushed (on the gem or the setting).
 Again, it seems obvious that a device which rapidly produces so much heat when pushed underwater could serve as a rather simple and straightforward source of electricity; however, it is unclear where the energy for the temperature increase originates, and we prescribe several more weeks of testing.
 
-\begin{figure}
-\includegraphics[width=1.0\textwidth]{01-temp.pdf}
-\caption{\label{fig:temperature}\textbf{The application of downward force produces rapid temperature change in water.} A sideways force does not produce a change. The increase between 10 and 20 seconds on the `water sideways' time-points corresponds to inadvertent downward pressure. The `table sideways' plot temperature readings were taken with the temperature probe being used to push the subject, and thus reflect the subject temperature rather than water temperature.}
-\end{figure}
+%\begin{figure}
+%\includegraphics[width=1.0\textwidth]{01-temp.pdf}
+%\caption{\label{fig:temperature}\textbf{The application of downward force produces rapid temperature change in water.} A sideways force does not produce a change. The increase between 10 and 20 seconds on the `water sideways' time-points corresponds to inadvertent downward pressure. The `table sideways' plot temperature readings were taken with the temperature probe being used to push the subject, and thus reflect the subject temperature rather than water temperature.}
+%\end{figure}
 
 \subsection{Radioactivity}
 Our observations consistently showed the subject to be unremarkable in terms of its alpha, beta, and gamma emissions.
@@ -133,4 +160,3 @@ It is unclear how the artifact would behave, for example, in orbit or on the way
 %\bibliography{main}
 
 \end{document}
-This is never printed
