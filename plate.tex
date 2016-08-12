@@ -1,0 +1,43 @@
+\documentclass[border=10pt]{standalone}
+%%%<
+\usepackage{verbatim}
+%%%>
+\begin{comment}
+:Title: Plates from rectilinear artifacts
+:Author: John O. Woods, Ph.D.
+:Slug: plates
+
+Hexagonal plates from the rectilinear artifacts
+\end{comment}
+%\usepackage[upright]{fourier} 
+%\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{tkz-euclide} 
+\usetkzobj{all} 
+%\definecolor{fondpaille}{cmyk}{0,0,0.1,0}
+%\pagecolor{fondpaille}   
+%\color{Maroon}  
+%\tkzSetUpColors[background=fondpaille,text=Maroon]
+\thispagestyle{empty}  
+
+\begin{document}
+
+ \begin{tikzpicture}
+\tkzDefPoint(0,0){A}\tkzDefPoint(6,0){B}
+\tkzDefPoint(6,2){C}\tkzDefPoint(4,4){D}
+\tkzDefPoint(2,4){E}\tkzDefPoint(0,2){F}
+\tkzInterLL(A,C)(B,D)  \tkzGetPoint{I}  
+
+\tkzDrawPolygon (A,B,C,D,E,F)
+%\tkzDrawSegments(A,C B,D)
+\tkzMarkRightAngles[size=.3,opacity=.5](F,A,B A,B,C)
+\tkzMarkAngles[size=.3,opacity=.5](D,C,B A,F,E E,D,C F,E,D)
+\tkzDrawPoints(A,B,C,D,E,F)
+
+\tkzMarkSegments[mark=s||](D,E A,B)
+%\tkzMarkSegments[mark=s|](A,F C,B)
+\tkzLabelPoints(A,B)
+\tkzLabelPoints[above right](C,D)
+\tkzLabelPoints[above left](E,F)
+%\tkzLabelSegments(A,B)
+\end{tikzpicture}  
+\end{document}

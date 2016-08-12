@@ -13,6 +13,7 @@
 
 \documentclass[10pt]{article}
 
+\usepackage{floatrow}
 \usepackage{graphicx}
 \usepackage{amsthm}
 \usepackage{enumerate}
@@ -32,33 +33,30 @@ Our contracted objective was to ascertain uses, if any, of our subjects.
 Instruction prioritized minimizing damage to the subjects, and using the least destructive analyses possible.
 
 \section{Introduction}
-The subjects were recovered from certain near-earth asteroids, and appear to be artifacts of some sort.
+The subjects were recovered from various asteroids, and are clearly artificial, though their intended use is unknown.
 They appear to be of similar technological origin, having common components and visually similar design.
-The intended use of these objects is unknown.
 The subjects arrived with an arbitrary numbering scheme, which we have adopted.
 
 Subjects 001--004 and 007--008 all contain minerals mounted in the center of a metallic setting, whereas subjects 005 and 006 appear to be hardware mounts for a glass-like material.
 The minerals and the glass appear to have been polished to a high gloss.
 
-We propose a simple taxonomy which simplifies the descriptive aspect of our task; it groups the subjects into two types based on the central component (mineral or glass).
+We propose a simple taxonomy which simplifies the descriptive aspect of our task.
+It groups the subjects into two types based on the central component (mineral or glass).
 However, we acknowledge that this taxonomy may highlight an arbitrary aspect of the subjects, and multiple independent taxonomies could be developed which emphasize other traits.
-We therefore utilize this taxonomy --- shown in Fig.~\ref{fig:taxonomy} and discussed in the following section --- solely for convenience.
+We therefore utilize this classification scheme --- shown in Fig.~\ref{fig:taxonomy} and discussed in the following section --- solely for convenience.
 
 \begin{figure}
 \includegraphics[width=1.0\textwidth]{taxonomy.pdf}
 \caption{\label{fig:taxonomy}\textbf{We classified the artifacts into a taxonomy whose first level centers on what we perceive to be the central component, which is either a refined mineral or some type of artificial glass.} For the mineral-centric subjects, the second level describes the setting for the gem, which is itself mounted in place on some sort of device. One of the glass-centric subjects has metal `tips' on the glass piece, and it receives its own category. We have not included the mounts in this taxonomy, as they each --- with the exception of those for 005 and 006 --- appear wholly unique. Indeed, the mounts for 005--006 are much less distinguishable from what we refer to as the settings. The terminology is defined in Section~\ref{sec:taxonomy}. The last row in the taxonomy provides the subject number, such that each subject has its own unique classification. For example, subject 001 is the sole artifact can be uniquely described, at least among those artifacts of which we are aware, as \texttt{artifact/mineral/labyrinthine/ellipsoidal}. }
 \end{figure}
 
-%Subjects 001--004 and 007--008 consist of two parts, which we refer to as the mineral and the setting. Subjects 005--006 likewise have two components; however, in lieu of a mineral, the setting serves as a mount for what appears to be glass.
-
-\subsection{Taxonomy}\label{sec:taxonomy}
+\subsection{Taxonomy and general observations}\label{sec:taxonomy}
 Our taxonomy is best understood using the following terminology.
 
 \begin{term}
 \emph{Gem} is the term we use to describe the objects of apparently mineral origin.
 \end{term}
-
-As the minerals in subjects 001--004 and 007--008 are gem-like, we have adopted some identifying methods and terns from gemology, which we do not define here.
+As the minerals in subjects 001--004 and 007--008 are gem-like, we have adopted some identifying methods and additional terms from gemology, which we will not define here.
 
 \begin{term}
 The \emph{setting} is the piece whose metal contacts are in immediate contact with the gem or glass. It may be either wholly metallic or partially. There is a layer of what may be either oxidation or some sort of protective coating (which we will refer to simply as oxidation hereafter) on several of the settings; this layer appears to have been scraped off on the settings' edges and corners.
@@ -67,7 +65,7 @@ The \emph{setting} is the piece whose metal contacts are in immediate contact wi
 \emph{Labyrinthine} describes the patterns in the metal of some of the settings, which resemble either mazes or perhaps circuit boards. These have the most visible oxidation.
 \end{term}
 \begin{term}
-\emph{Dowel triad} partially describes the setting for subject 004, which are three identical metal rods which pin the gem in the center of a short hollow cylinder.
+\emph{Dowel triad} partially describes the setting for subject 004, which are three metal rods which pin the gem in the center of a short hollow cylinder. These rods differ in length to accommodate the gem's asymmetry and extend past the cylinder's boundary. 
 \end{term}
 \begin{term}
 \emph{Rectilinear} describes the mounts for 007 and 008, which have linear edges and primarily right (and some $45^\circ$) angles.
@@ -79,51 +77,30 @@ The \emph{mount} is the piece to which the setting is attached, except in two ca
 The \emph{connectors} are uniform metallic pins which resemble an electronic interface, such as one might find on a computer processor or microcontroller. These are of differing sizes and are present on all subjects except for 007 and 008.
 \end{term}
 \begin{term}
-The \emph{plates} are identical, parallel metal quadrilaterals which enclose the gems in subjects 007 and 008. On one end of each is a single plate; on the other end there are either two (007) or three (008). We thus refer to these respectively as three-plate and four-plate.
+The \emph{plates} are nearly identical, parallel metal hexagons (Fig.~\ref{fig:plate}) which enclose the gems in subjects 007 and 008. On one end of each is a single plate; on the other end there are either two (007) or three (008). We thus refer to these respectively as three-plate and four-plate.
 \end{term}
 
-\section{Methods}
-We endeavored to obtain as much information about the subjects as possible with as little potential impact on it as was feasible.
+\begin{figure}
+\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top}}}]{figure}[\FBwidth]
+{\caption{\label{fig:plate}\textbf{The plates are hexagons where sides $\overline{AB}$ and $\overline{ED}$ are apparently parallel, as are sides $\overline{AF}$ and $\overline{BC}$; angles are either right angles or $135^\circ$.} The sizes of the plates varies slightly: on the three-plate artifact, side $\overline{ED}$ is 0.8 cm, but on the four-plate, they are 0.7 cm for the three together and just over 0.5 cm for the single end plate. The distance from $\overline{AB}$ to $\overline{ED}$ also differs slightly between the two, with 1.9 cm for the three-plate subject and 1.8 cm for the four-plate. Finally, $\overline{AB}$ is 3.2 cm wide on the former and 2.8 cm wide on the latter.}}
+{\includegraphics[width=0.4\textwidth]{plate.pdf}}
+\end{figure}
 
-The mineral's properties may be categorized as either physical or optical.
+\section{Methods}
+We endeavored to obtain as much information about the subjects as possible with as little potential impact on them as was feasible.
+In particular, we were prohibited from obtaining volume measurements through submersion, and insufficient time was allotted for SolidWorks-based modeling.
+
+The minerals' properties may be categorized as either physical or optical.
 We used a $10\times$ hand lens and ultraviolet light to discern basic physical properties.
 For optical properties, a $45\times$ polarizing gemological microscope, a dichroscope, and a refractometer were employed.
 
+We used a standard laboratory scale to obtain weight measurements.
 
 \section{Results}
-Rather than refer to the objects only by their numbers, we identify them using identifying terms from their taxonomies.
+\subsection{Central components}
+Optical and physical properties of the central components are listed in Table~\ref{tab:gem_properties}.
 
-\subsection{Central objects}
-\subsubsection{Basic physical characteristics of the central objects}
-
-\begin{enumerate}[(001)]
-\item \textbf{Ellipsoidal labyrinthine:} The gem is yellow in color, transparent, and has a vitreous luster.
-    Unfortunately, certain diagnostic features such as cleavage and fracture were obliterated with the cutting and polishing by --- we presume --- the creators of this artifact.
-    Other physical properties such as hardness and specific gravity could not be tested due to our instructions not to abrade the subject.
-\item \textbf{Circular labyrinthine:}
-\item \textbf{Parabolic labyrinthine:}
-\item \textbf{Dowel triad:}
-\item \textbf{Glass-centric:}
-\item \textbf{Metal-tipped glass-centric:}
-\item \textbf{Three-plate rectilinear:}
-\item \textbf{Four-plate rectilinear:}
-\end{enumerate}
-
-\subsubsection{Optical characteristics of the central objects}
-\begin{enumerate}[(001)]
-\item \textbf{Ellipsoidal labyrinthine:} Using the tools outlined above, we determined that the optical properties of the mineral are similar to those of quartz.
-    Specifically, we measured the refractive index (\textsc{ri}) to be exactly 1.55.
-    We used a polarizing microscope and determined that the mineral is anisotropic; the dichroscope allowed us to determine that the mineral is doubly refractive.
-\item \textbf{Circular labyrinthine:}
-\item \textbf{Parabolic labyrinthine:}
-\item \textbf{Dowel triad:}
-\item \textbf{Glass-centric:}
-\item \textbf{Metal-tipped glass-centric:}
-\item \textbf{Three-plate rectilinear:}
-\item \textbf{Four-plate rectilinear:}
-\end{enumerate}
-
-\begin{table}\footnotesize
+\begin{table}[h]\footnotesize
 \centering
 {\renewcommand{\arraystretch}{1.2}
 \begin{tabular}{lp{5em}rrrrp{7.5em}}
@@ -139,31 +116,32 @@ Rather than refer to the objects only by their numbers, we identify them using i
 \textbf{007}                                & rectangular, concave cut           & brown                                      & transparent                               &  & 1.55                                          & doubly refractive                            \\
 \textbf{008}                                & rectangular, concave cut           & brown                                      & transparent                               &  & 1.54                                          & doubly refractive                            \\ \hline
 \end{tabular}}
-\caption{\label{tab:optical}\textbf{Physical and optical properties of the central objects for subjects 001--008.}}
+\caption{\label{tab:gem_properties}\textbf{Physical and optical properties of the central objects for subjects 001--008.}}
 \end{table}
 
-\subsection{Electromagnetic properties}
-We attempted to take measurements using a cheap digital multimeter with sensor wires applied to various contacts on subject 004.
-First, we verified that the contacts were conductors, by applying the wires at the same time to the same contact; we measured a resistance of 0 $\Omega$.
+\subsection{Peripheral components}
+\subsubsection{Electromagnetic properties}
+We attempted to take measurements using a digital multimeter with sensor wires applied to various contacts on subject 004.
+First, we verified that the contacts were conductors, by applying the wires at the same time to the same contact; we measured no resistance.
 We next attempted to apply the multimeter wires to adjacent contacts, but were unable to find any that would pass a measurable current.
-As each subject possessed hundreds contacts, we were unable to systematically investigate all of the tens of thousands of combinations of contacts on any one artifact --- let alone all of them. 
+As each subject possessed hundreds contacts, we were unable to systematically investigate all of the tens of thousands of combinations of contacts on any one artifact --- let alone all of the artifacts.
 
-It is possible that the subjects' electrical internals have been destroyed, but it seems strange that devices capable of non-electromagnetically-induced anti-gravitation should have electrical internals that could so easily have been damaged.
+It is possible that the subjects' electrical internals have been destroyed, but it seems strange that devices capable of non-electromagnetically-induced anti-gravitation should have electrical internals so susceptible to damage.
 It is also possible that the contacts are connected in triples rather than pairs --- such as with transistors or vacuum tubes --- or that they function only in some specific combination.
-It is not clear why devices which appear not to rely on electromagnetism even need electrical contacts; perhaps they are something else entirely.
+It is not clear why devices which appear not to rely on electromagnetism need electrical contacts; perhaps these metal wires are not electrical contacts at all.
 
 The black portions of the subjects do not appear to conduct; neither do the polished stones, nor the apparent metallic ends on subject 006.
 
 Obviously, whether an object possesses conductance or not is relative rather than absolute, but we were reluctant to apply higher voltages to the subjects.
 
 We observed that subjects 007 and 008 (the rectilinear artifacts) produce a stronger than expected magnetic field based upon their apparent composition, and confusingly, the subjects' dipole moments appear to rotate.
-Not only do the dipole moments rotate, but they does so seemingly \textit{in tandem} with the placement of either a magnetometer or a simple compass relative to whichever artifact is being examined.
+Not only do the dipole moments rotate, but they do so seemingly \textit{in tandem} with the placement of either a magnetometer or a simple compass relative to whichever artifact is being examined.
 
 \subsection{Fundamental force irregularities}
-While measurement of an object's mass seems so trivial as to belong in a grade-school lab report, our observations of the subjects have led us to exercise a great deal of skepticism regarding the standard methods.
-For example, a digital laboratory scale expresses its measurement in grams, which is a mass measurement --- but, in fact, the scale provides a measurement of force, not mass, and converts according to a calibration to the local gravitational field.
+While measurement of an object's mass seems so trivial as to belong in a grade-school lab report, our observations of the subjects have led us to exercise a great deal of skepticism in our application of the standard methods.
+For example, a digital laboratory scale expresses its measurement in grams, which is a mass measurement --- but, in fact, the scale provides a measurement of force, not mass, and converts according to a calibration to the local gravitational field and centripetal force.
 
-Several assumptions are implicit in such a measurement:
+Several assumptions are implicit in such a measurement of any object:
 \begin{enumerate}
 \item The object is subject only to gravitational force, and other forces (\textit{e.g.} magnetic) are tiny in comparison.
 \item The object contains no regions that are of lower density than the atmosphere. Imagine, for example, a chamber containing helium at atmospheric pressure. Such a chamber would have an apparent weight less than that of an equivalent chamber containing standard atmosphere. Similarly, a chamber containing nothing --- a vacuum --- would weigh less than either the helium chamber or the atmosphere-containing chamber.
@@ -179,6 +157,22 @@ When we cycled back through the orientations a second time, the apparent weight 
 When tested in the early afternoon, the scale recorded an average mass of 40.2 grams with a standard deviation of 1.2 grams.
 We repeated the experiment an hour later and recorded an average mass of 41.5 grams --- again with a standard deviation of 1.2 grams.
 Time constraints rather limited our ability to discern any meaningful trend.
+
+\begin{table}
+\begin{tabular}[crr]
+subject & taxonomy & mass & samples \\
+001 & labyrinthine ellipsoidal
+002 & labyrinthine circular
+003 &
+004 &
+005 &
+006 &
+007 &
+008 &
+009 &
+\end{tabular}
+\caption{\label{tab:mass}\textbf{Although the masses of the subjects varied over time, we were able to record a mean for each subject.} Plots of the mass over time of subject 002 are included in Appendix~A.}
+\end{table}
 
 However, one of us (Amie) noticed a peculiarity: subject 005 behaves extremely oddly when placed in a centrifuge.
 Its mean measured mass was 24.1 grams, but we observed that a 25-gram weight placed on the opposite end of a 0.25-meter centrifuge from the artifact produced a substantial imbalance.
