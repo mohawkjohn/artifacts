@@ -37,9 +37,7 @@ The subjects were recovered from various asteroids, and are clearly artificial, 
 They appear to be of similar technological origin, having common components and visually similar design.
 The subjects arrived with an arbitrary numbering scheme, which we have adopted.
 
-Subjects 001--004 and 007--008 all contain minerals mounted in the center of a metallic setting, whereas subjects 005 and 006 appear to be hardware mounts for a glass-like material.
-The minerals and the glass appear to have been polished to a high gloss.
-
+\subsection{Taxonomy and general observations}\label{sec:taxonomy}
 We propose a simple taxonomy which simplifies the descriptive aspect of our task.
 It groups the subjects into two types based on the central component (mineral or glass).
 However, we acknowledge that this taxonomy may highlight an arbitrary aspect of the subjects, and multiple independent taxonomies could be developed which emphasize other traits.
@@ -50,7 +48,6 @@ We therefore utilize this classification scheme --- shown in Fig.~\ref{fig:taxon
 \caption{\label{fig:taxonomy}\textbf{We classified the artifacts into a taxonomy whose first level centers on what we perceive to be the central component, which is either a refined mineral or some type of artificial glass.} For the mineral-centric subjects, the second level describes the setting for the gem, which is itself mounted in place on some sort of device. One of the glass-centric subjects has metal `tips' on the glass piece, and it receives its own category. We have not included the mounts in this taxonomy, as they each --- with the exception of those for 005 and 006 --- appear wholly unique. Indeed, the mounts for 005--006 are much less distinguishable from what we refer to as the settings. The terminology is defined in Section~\ref{sec:taxonomy}. The last row in the taxonomy provides the subject number, such that each subject has its own unique classification. For example, subject 001 is the sole artifact can be uniquely described, at least among those artifacts of which we are aware, as \texttt{artifact/mineral/labyrinthine/ellipsoidal}. }
 \end{figure}
 
-\subsection{Taxonomy and general observations}\label{sec:taxonomy}
 Our taxonomy is best understood using the following terminology.
 
 \begin{term}
@@ -153,29 +150,28 @@ Firstly, we note the stronger than expected magnetic field and rotating dipole m
 
 We next attempted to individually observe the weight of a number of subjects, but found that the measured value changed as we re-oriented them.
 (Again, we lacked sufficient time to perform the same tests on all subjects, so the following remarks refer only to the circular labyrinthine subject, 002.)
-When we cycled back through the orientations a second time, the apparent weight differed by up to around five percent from the first set of measurements.
-When tested in the early afternoon, the scale recorded an average mass of 40.2 grams with a standard deviation of 1.2 grams.
-We repeated the experiment an hour later and recorded an average mass of 41.5 grams --- again with a standard deviation of 1.2 grams.
+When we cycled back through the orientations a second time, the apparent weight differed substantially from the first set of measurements.
 Time constraints rather limited our ability to discern any meaningful trend.
 
 \begin{table}
-\begin{tabular}[crr]
-subject & taxonomy & mass & samples \\
-001 & labyrinthine ellipsoidal
-002 & labyrinthine circular
-003 &
-004 &
-005 &
-006 &
-007 &
-008 &
-009 &
+\begin{tabular}{rlrrr}%\hline
+subject & taxonomy & mean (g) & $\sigma$ & $N$ \\
+\hline
+001 & ellipsoidal & 939.3 & 16.7 & 8 \\
+002 & circular & 862.7 & 16.2 & 16 \\
+003 & parabolic & 916.3 & 17.1 & 10 \\
+004 & dowel triad & 1009.8 & 16.8 & 8 \\
+005 & glass & 416.9 & 8.3 & 8 \\
+006 & metal-tipped & 420.4 & 8.2 & 8 \\
+007 & three-plate & 39.2 & 0.2 & 3 \\
+008 & four-plate & 42.2 & 0.3 & 3 \\
+\hline
 \end{tabular}
-\caption{\label{tab:mass}\textbf{Although the masses of the subjects varied over time, we were able to record a mean for each subject.} Plots of the mass over time of subject 002 are included in Appendix~A.}
+\caption{\label{tab:mass}\textbf{Although the masses of the subjects varied over time, we were able to record a mean for each subject.} Plots of the mass over time of each subject are included in Appendix~A. $\sigma$ is the standard deviation of the mass, and $N$ is the number of measurements from which the mean was determined. We found it curious that the standard deviations were so similar for co-classified objects.}
 \end{table}
 
 However, one of us (Amie) noticed a peculiarity: subject 005 behaves extremely oddly when placed in a centrifuge.
-Its mean measured mass was 24.1 grams, but we observed that a 25-gram weight placed on the opposite end of a 0.25-meter centrifuge from the artifact produced a substantial imbalance.
+Its mean measured mass was 416.9 grams, but we observed that a 415-gram counterweight placed on the opposite end of a 0.25-meter centrifuge from the artifact produced a substantial imbalance.
 
 These results are fairly confusing, and explaining why requires us to go back to first principles.
 Newton's first and second laws are, respectively:
@@ -204,12 +200,12 @@ Thus, centripetal force arises from a change in the momentum $\mathbf{p}$ of an 
 However, subject 005's centripetal force seems not to be predictable from its mass --- that, or its mass is not predictable from its weight, which is a mind-bogglingly disorienting concept.
 
 We found that subject 006 behaved similarly to 005, but none of the other subjects seemed to produce such an observable imbalance.
-We hesitate to even report these results because they seem so inconsistent with our understanding of the laws of physics.
+We hesitate to even report these results because they seem so inconsistent with our understanding of Newtonian physics.
 
 Had we a much greater allowance of time, our next step would be one of the following:
 \begin{enumerate}
 \item Measure the weights and accelerations (when dropped) of the subjects at different latitudes, along with the gravity at those same locations. For example, at our geodetic latitude $\phi=29.801445^\circ$, gravitational acceleration should be around $-9.792\textrm{ m}/\textrm{s}^2$ (using a simple gravity model rather than a measurement), and centripetal acceleration should amount to 0.029 $\textrm{m}/\textrm{s}^2$ (about a quarter of a percentage reduction in gravity). Near the poles, the centripetal acceleration will be closer to zero, and at the equator, 0.034 $\textrm{m}/\textrm{s}^2$. (Earth's gravity also varies due to its non-uniform shape and composition, and that must also be taken into account.)
-\item Measure the mass using the subjects' momentums when attached to a spring --- or hydraulic shock absorber --- of known spring constant $k$. This strategy has been employed, for example, to weigh astronauts in microgravity, such as aboard the International Space Station. Such a measurement would likely require an extremely sensitive hydraulic device given the size of the objects in question.
+\item Measure the mass using the subjects' momentums when attached to a spring --- or hydraulic shock absorber --- of known spring constant $k$. This strategy has been employed, for example, to weigh people in microgravity. Such a measurement would likely require an extremely sensitive hydraulic device given the size of the objects in question.
 \end{enumerate}
 
 \subsection{Radioactivity}
@@ -218,10 +214,10 @@ Our observations consistently showed the subject to be unremarkable in terms of 
 \section{Conclusions}\label{conclusions}
 The subjects respond unexpectedly to stimuli, based on their behavior in the presence of a magnetometer. The subjects also have either non-standard interaction with gravitational fields or are able to negate inertia.
 
-Let us take as given that some or all of these devices possess an advanced faculty allowing them either to negate inertia or to reduce the influence of gravity upon themselves (or both).
+Let us take as given that some or all of these devices possess the ability either to negate inertia or to reduce the influence of gravity upon themselves (or both).
 We can think of a few possible uses of such properties, among them:
 \begin{itemize}
-\item \textbf{Propulsion.} We can imagine several concepts for propulsion using such faculties, among them the old science fiction concept of anti-gravity. Even with a device which functions by inertia negation, it would be possible to possible to move through space through mechanical means rather than using a rocket.
+\item \textbf{Propulsion.} We can imagine several concepts for propulsion using such technology, among them the old science fiction concept of anti-gravity. Even with a device which functions by inertia negation, it would be possible to possible to move through space through purely mechanical means rather than using a rocket.
 \item \textbf{Energy production,} though of course depending entirely upon details of the functioning of these faculties --- of which we have no insight. Indeed, most of these possibilities depend a great deal on the power source for these devices.
 \item \textbf{Navigation.} An accelerometer in free fall experiences no gravity and thus measures zero acceleration (even though it is clearly accelerating). An accelerometer which could reduce its interaction with a gravitational field could then precisely measure that field as it moves through space.
 \item \textbf{Weaponry.} We hesitate to mention it, but a device which can reduce its momentum may also be able to increase its momentum --- and we can't rule out the possibility of increasing the amount of gravitational force experienced, either.
@@ -235,7 +231,7 @@ We can think of a few possible uses of such properties, among them:
 The four hours of study we were permitted on the subject were insufficient for fully interrogating the range of possibilities produced by our testing, and the tests we performed have produced more questions than answers.
 
 We urge extreme caution when transporting the subjects due to their likely unpredictable behavior in a gravitational field.
-It is unclear how the artifacts would behave, for example, in orbit or on the way to orbit.\footnote{This type of information was not recorded when the subjects were initially retrieved from the various near-earth asteroids where they were found. Frustratingly, the operators of the inbound re\"entry vehicle would not provide us with navigation filter logs, arguing that the proprietary nature of their flight software and propulsion systems `regrettably' did not allow them to share those data.}
+It is unclear how the artifacts would behave, for example, in orbit or on the way to orbit.\footnote{This type of information was not recorded when the subjects were initially retrieved from the various asteroids where they were found. Frustratingly, the operators of the inbound re\"entry vehicle would not provide us with navigation filter logs, arguing that the proprietary nature of their flight software and propulsion systems `regrettably' did not allow them to share those data.}
 
 %\bibliographystyle{abbrv}
 %\bibliography{main}
