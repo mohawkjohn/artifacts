@@ -1,0 +1,87 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Memo
+% LaTeX Template
+% Version 1.0 (30/12/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rob Oakes (http://www.oak-tree.us) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper,10pt]{texMemo} % Set the paper size (letterpaper, a4paper, etc) and font size (10pt, 11pt or 12pt)
+
+\usepackage[dvips=false,pdftex=false,vtex=false,paperwidth=7.5in,paperheight=3.125in,margin=0.5in,bottom=0.75in,top=0.4in,nohead]{geometry}
+
+\usepackage{parskip} % Adds spacing between paragraphs
+\setlength{\parindent}{15pt} % Indent paragraphs
+
+\newenvironment{absolutelynopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
+
+%----------------------------------------------------------------------------------------
+%	MEMO INFORMATION
+%----------------------------------------------------------------------------------------
+
+\memoto{General~Tinsit} % Recipient(s)
+
+\memofrom{J.~Smith} % Sender(s)
+
+\memosubject{Alien Technological Artifacts} % Memo subject
+
+\memodate{Wednesday, 16 August 2034} % Date, set to \today for automatically printing todays date
+
+%\logo{\includegraphics[width=0.3\textwidth]{logo.png}} % Institution logo at the top right of the memo, comment out this line for no logo
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the memo header information
+\vspace{-1.5em}
+%----------------------------------------------------------------------------------------
+%	MEMO CONTENT
+%----------------------------------------------------------------------------------------
+\noindent Recent rumors surrounding the discovery of specific Alien Technological Artifacts by a consortium of our civilian partners have now been verified to be true. Last week we conducted an Inter-Agency sweep and seizure mission at the sorting facilities of several members of the Trans-Solar Mining Companies. This mission revealed the purposeful collection of non-Human technological objects that appeared to be consistent in size, density and chemical composition.
+
+\noindent We immediately seized the Artifacts and dispatched them via secured couriers to the closest fortified laboratory for in-depth analysis --- the Musk Laboratory within the R.~D.~Olivaw Corporation. Yesterday my team conducted a site visit at Musk to gather early findings from senior researchers involved in the investigation. Their Report follows my summary notes listed below.
+
+\bigskip
+\noindent What we know:
+
+\begin{enumerate}
+\item Machinery of non-Human origin has been found in at least 61 locations around the Solar System --- early findings suggest they are combat oriented.  Numerous groups within the Trans-Solar Mining Companies have been collecting the most significant and valuable pieces for years and aggregating them in their offices here on Earth.  We are only just now finding out about their discoveries. Evidently the audit system currently in place failed to uncover this practice by private sector speculators.
+\item All of the non-Human Artifacts appear to be propulsion or flight-related rather than stationary fabrication or manufacturing equipment. The Musk team is proceeding to determine specific weapons platforms and their military applications.
+\item All of the Artifacts seem to have been deployed throughout a diverse set of military theaters and were utilized in battle.  It is unclear at this time who were the combatants but given the diverse locations of the mining sites it is reasonable to conclude that casualties are splattered on various asteroids throughout the Solar System.
+\item No organic life forms or remains have yet to be found: only very deteriorated relics of ship-like structures.
+\item Many of associated debris fields suggest that they were traveling at a very high rate of speed when attacked and destroyed. It is unclear at this time if we can calculate the rate of descent for any of these artifacts.
+\item The miners that first prospected the debris fields dispersed across the surface of asteroids, operated more like scavengers than archeologists.  We have no methodology to determine what has been lost or destroyed, or the orientation of each piece to the rest of the remaining parts. In short, no cataloging was conducted at the time of initial collection.
+\item It appears that a significant portion of the metallic components that made up those debris fields have been removed and smelted down to fulfill the various quotas of those miners' contracts. Early analysis suggests it will be very difficult to trace and segregate military debris from the minerals normally mined by Trans-Solar participants.
+\item Based on the regolith sedimentation, in, around, and on top of some of these debris fields it appears that the combat encounters that resulted in the destruction of the original alien structures, has been going on for tens of thousands of years.  Tritium dating reveals that some those wreckage sites are very, very, very old.
+\end{enumerate}
+\bigskip
+
+\begin{absolutelynopagebreak}
+\noindent I have included the preliminary scientific report following these summary notes.  The report compiled by those scientists makes no sense to me --- but neither does a hundred thousand year war that regularly passes through our solar system.
+
+\bigskip
+\noindent J.~Smith \\
+ADJ.~AQ--02.7611 \\
+Filed 8/16/34 \\
+
+\bigskip
+\noindent attachment
+\end{absolutelynopagebreak}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
