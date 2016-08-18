@@ -1,7 +1,7 @@
 \documentclass[10pt,twoside,openany]{article}
 
 
-\usepackage[dvips=false,pdftex=true,vtex=false,paperwidth=7.5in,paperheight=3.125in,margin=0.5in,bottom=0.75in,top=0.4in,nohead]{geometry}
+\usepackage[dvips=false,pdftex=true,vtex=false,paperwidth=6.5in,paperheight=6.25in,margin=0.5in,bottom=0.75in,top=0.4in,nohead]{geometry}
 \usepackage{floatrow}
 \usepackage[pdftex]{graphicx}
 \usepackage{dpfloat}
@@ -47,10 +47,11 @@
 % SCIENTIFIC REPORT title page
 \begin{titlepage}
 \centering
-\ \par\vspace{1cm}
+\topskip0pt
+\vspace*{\fill}
 {\LARGE Scientific Report \par}
 {\Large \textsc{ada}-0617353427 \par}
-\vfill
+\vspace*{\fill}
 \end{titlepage}
 \newpage
 
@@ -95,16 +96,12 @@ However, we acknowledge that this taxonomy may highlight an arbitrary aspect of 
 We therefore utilize this classification scheme --- shown in Fig.~\ref{fig:taxonomy} and discussed in the following section --- solely for convenience.
 
 \begin{figure}[p]
-  \begin{leftfullpage}
-    \includegraphics[height=1.0\textheight]{taxonomy.pdf}
-  \end{leftfullpage}
-\end{figure}
-\begin{figure}[p]
-  \begin{fullpage}
-  \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top}}}]{figure}[\FBwidth]
-{\caption{\label{fig:taxonomy}\textbf{We classified the artifacts into a taxonomy whose first level centers on what we perceive to be the central component, which is either a refined mineral or some type of artificial glass.} For the mineral-centric subjects, the second level describes the setting for the gem, which is itself mounted in place on some sort of device. One of the glass-centric subjects has metal `tips' on the glass piece, and it receives its own category. We have not included the mounts in this taxonomy, as they each --- with the exception of those for 005 and 006 --- appear wholly unique. Indeed, the mounts for 005--006 are much less distinguishable from what we refer to as the settings. The terminology is defined in Section~\ref{sec:taxonomy}. The last row in the taxonomy provides the subject number, such that each subject has its own unique classification. For example, subject 001 is the sole artifact can be uniquely described, at least among those artifacts of which we are aware, as \texttt{artifact/mineral/labyrinthine/ellipsoidal}.}}
-{}
-  \end{fullpage}
+    \includegraphics[width=1.0\textwidth]{taxonomy.pdf}
+%  \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top}}}]{figure}[\FBwidth]
+%{
+\caption{\label{fig:taxonomy}\textbf{We classified the artifacts into a taxonomy whose first level centers on what we perceive to be the central component, which is either a refined mineral or some type of artificial glass.} For the mineral-centric subjects, the second level describes the setting for the gem, which is itself mounted in place on some sort of device. One of the glass-centric subjects has metal `tips' on the glass piece, and it receives its own category. We have not included the mounts in this taxonomy, as they each --- with the exception of those for 005 and 006 --- appear wholly unique. Indeed, the mounts for 005--006 are much less distinguishable from what we refer to as the settings. The terminology is defined in Section~\ref{sec:taxonomy}. The last row in the taxonomy provides the subject number, such that each subject has its own unique classification. For example, subject 001 is the sole artifact can be uniquely described, at least among those artifacts of which we are aware, as \texttt{artifact/mineral/labyrinthine/ellipsoidal}.}%}
+%{}
+%  \end{fullpage}
 \end{figure}
 
 Our taxonomy is best understood using the following terminology.
@@ -139,7 +136,7 @@ The \emph{plates} are nearly identical, parallel metal hexagons (Fig.~\ref{fig:p
 \begin{figure}
 \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top}}}]{figure}[\FBwidth]
 {\caption{\label{fig:plate}\textbf{The plates are hexagons where sides $\overline{AB}$ and $\overline{ED}$ are apparently parallel, as are sides $\overline{AF}$ and $\overline{BC}$; angles are either right angles or $135^\circ$.} The sizes of the plates varies slightly: on the three-plate artifact, side $\overline{ED}$ is 0.8 cm, but on the four-plate, they are 0.7 cm for the three together and just over 0.5 cm for the single end plate. The distance from $\overline{AB}$ to $\overline{ED}$ also differs slightly between the two, with 1.9 cm for the three-plate subject and 1.8 cm for the four-plate. Finally, $\overline{AB}$ is 3.2 cm wide on the former and 2.8 cm wide on the latter.}}
-{\includegraphics[width=0.3\textwidth]{plate.pdf}}
+{\includegraphics[width=0.5\textwidth]{plate.pdf}}
 \end{figure}
 
 \section{Methods}
@@ -179,40 +176,38 @@ Although 007 and 008 were placed near one another in the taxonomy, it is not at 
 We lacked sufficient time to take spectra using a \textsc{vnir} spectrometer, but suggest that as a next step.
 
 \begin{table}[h]
-\includegraphics[height=0.9\textheight]{gem_properties_table.pdf}
+\includegraphics[width=1.0\textwidth]{gem_properties_table.pdf}
 \caption{\label{tab:gem_properties}\textbf{Physical and optical properties of the central objects for subjects 001--008.}}
 \end{table}
 
 \begin{figure}
-\begin{floatrow}
-  \ffigbox{\includegraphics[angle=0,height=0.9\textheight]{001.eps}}%
-  {\caption{\label{fig:001}\textbf{Labyrinthine ellipsoidal (001).}}}
-  \ffigbox{\includegraphics[angle=0,height=0.9\textheight]{002.eps}}%
-  {\caption{\label{fig:002}\textbf{Labyrinthine circular (002).}}}
-\end{floatrow}
-\end{figure}
+  {\includegraphics[angle=0,width=1.0\textwidth]{001.eps}}%
+  {\caption{\label{fig:001}\textbf{Labyrinthine ellipsoidal (001).}}}\end{figure}
+  \begin{figure}
+  {\includegraphics[angle=0,width=1.0\textwidth]{002.eps}}%
+  {\caption{\label{fig:002}\textbf{Labyrinthine circular (002).}}}\end{figure}
 
 \begin{figure}
-\begin{floatrow}
-  \ffigbox{\includegraphics[angle=0,height=0.9\textheight]{003.eps}}%
+  {\includegraphics[angle=0,width=1.0\textwidth]{003.eps}}%
   {\caption{\label{fig:003}\textbf{Labyrinthine parabolic (003).}}}
-  \ffigbox{\includegraphics[angle=0,height=0.9\textheight]{004.eps}}%
+  \end{figure}
+  \begin{figure}
+  {\includegraphics[angle=0,width=1.0\textwidth]{004.eps}}%
   {\caption{\label{fig:004}\textbf{Dowel triad (004).}}}
-\end{floatrow}
 \end{figure}
 
 \begin{figure}
-  \includegraphics[angle=0,height=0.9\textheight]{005-006.eps}
+  \includegraphics[angle=0,width=1.0\textwidth]{005-006.eps}
   \caption{\label{fig:005-006}\textbf{Glass-centric (005) and metal-tipped glass (006).}}
 \end{figure}
 
 \begin{figure}
-\begin{floatrow}
-  \ffigbox{\includegraphics[angle=0,height=0.9\textheight]{007.eps}}%
+  {\includegraphics[angle=0,width=1.0\textwidth]{007.eps}}%
   {\caption{\label{fig:007}\textbf{Three-plate rectilinear (007).}}}
-  \ffigbox{\includegraphics[angle=0,height=0.9\textheight]{008.eps}}%
+  \end{figure}
+  \begin{figure}
+  \ffigbox{\includegraphics[angle=0,width=1.0\textwidth]{008.eps}}%
   {\caption{\label{fig:008}\textbf{Four-plate rectilinear (008).}}}
-\end{floatrow}
 \end{figure}
 
 \subsection{Peripheral components}
@@ -254,9 +249,9 @@ When we cycled back through the orientations a second time, the apparent weight 
 Time constraints rather limited our ability to discern any meaningful trend.
 
 \begin{table}
-\hspace*{-0.38in}\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top}}}]{table}[\FBwidth]
+%\hspace*{-0.38in}\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top}}}]{table}[\FBwidth]
 {\caption{\label{tab:mass}\textbf{Although the masses of the subjects varied over time, we were able to record a mean for each subject.} Plots of the mass over time of each subject are included in Appendix~A. $\sigma$ is the standard deviation of the mass, and $N$ is the number of measurements from which the mean was determined. We found it curious that the standard deviations were so similar for co-classified objects.}}
-{\includegraphics[width=0.45\textwidth]{mass_table.pdf}\hskip4em}
+{\includegraphics[scale=1.0]{mass_table.pdf}\hskip4em}
 \end{table}
 
 However, Dr.~Hinds noticed a peculiarity: subject 005 behaves extremely oddly when placed in a centrifuge.
