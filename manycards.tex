@@ -1,0 +1,11 @@
+\documentclass[letterpaper]{article}
+\usepackage[scale=1.0,landscape]{geometry}
+\usepackage{ncccropbox,graphicx,multido}
+\begin{document}
+  \noindent
+  \multido{}{2}{%
+    \multido{}{4}{%
+      \cropbox{\includegraphics[angle=90]{card.pdf}}}\\}%
+     %\multido{}{1}{%
+       %\cropbox{\includegraphics[angle=90]{card.pdf}}}
+\end{document}
